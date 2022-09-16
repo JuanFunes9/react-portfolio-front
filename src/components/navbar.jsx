@@ -1,8 +1,8 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/nodejs-icon.svg";
-import logo2 from "../img/nodejs.png";
+const logo1 = "https://res.cloudinary.com/dxg8ulxz5/image/upload/v1662669654/nodejs-icon_1_jtkhhj.svg";
+const logo2 = "https://res.cloudinary.com/dxg8ulxz5/image/upload/v1662669654/nodejs_ukvmkg.png";
 
 class Navbar extends React.Component {
   constructor() {

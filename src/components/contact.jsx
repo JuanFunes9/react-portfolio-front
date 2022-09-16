@@ -137,7 +137,7 @@ class Contact extends React.Component {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-twitter"></i>
+                                <img src="https://res.cloudinary.com/dxg8ulxz5/image/upload/v1662671444/twitter-6_cz0rfw.svg" alt="twitter" />
                               </span>
                             </a>
                           </li>
@@ -148,7 +148,7 @@ class Contact extends React.Component {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-github"></i>
+                                <img src="https://res.cloudinary.com/dxg8ulxz5/image/upload/v1662671444/github-icon-1_iagzwl.svg" alt="github" />
                               </span>
                             </a>
                           </li>
@@ -159,7 +159,7 @@ class Contact extends React.Component {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-linkedin"></i>
+                                <img src="https://res.cloudinary.com/dxg8ulxz5/image/upload/v1662671444/linkedin-icon_sogzdj.svg" alt="LinkedIn" />
                               </span>
                             </a>
                           </li>
@@ -170,7 +170,7 @@ class Contact extends React.Component {
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-whatsapp"></i>
+                                <img className="wsp" src="https://res.cloudinary.com/dxg8ulxz5/image/upload/v1662671781/whatsapp-3_ijjsdw.svg" alt="Whatsapp" />
                               </span>
                             </a>
                           </li>
