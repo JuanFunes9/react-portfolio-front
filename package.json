@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://juan-funes.vercel.app/",
   "dependencies": {
     "axios": "^0.27.2",
     "bootstrap": "^4.3.1",
