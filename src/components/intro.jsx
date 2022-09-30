@@ -21,6 +21,7 @@ class Intro extends React.Component {
                   <Typed
                     strings={[
                       "Back End Developer",
+                      "Full Stack Developer",
                       "Web Developer"
                     ]}
                     typeSpeed={80}

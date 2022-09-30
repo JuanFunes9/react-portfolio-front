@@ -121,10 +121,11 @@ class Skills extends React.Component {
 												{this.state.skillsWork.map(skill => {
 													return (
 														<img
+															key={skill.alt}
 															className="skill-item"
-															alt={ skill.alt }
-															title={ skill.alt }
-															src={ skill.src }
+															alt={skill.alt}
+															title={skill.alt}
+															src={skill.src}
 														/>
 													)
 												})
@@ -138,10 +139,11 @@ class Skills extends React.Component {
 												{this.state.skillsStudying.map(skill => {
 													return (
 														<img
+															key={skill.alt}
 															className="skill-item"
-															alt={ skill.alt }
-															title={ skill.alt }
-															src={ skill.src }
+															alt={skill.alt}
+															title={skill.alt}
+															src={skill.src}
 														/>
 													)
 												})

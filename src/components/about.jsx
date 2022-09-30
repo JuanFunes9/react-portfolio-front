@@ -8,12 +8,12 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Hi, hello, introduce my name is Juan Funes, I'm from Argentina, precisely in CABA, Buenos Aires. Now I am a student at CoderHouse and Alkemy."
+            "Hello there!, let me introduce myself, I'm Juan Funes from Buenos Aires, Argentina. Currently studying a degree in computer science at Hurlingham National University."
         },
         {
           id: "second-p-about",
           content:
-            "Now I'm focusing on college, and deepening web development, especially Backend web development, studying NodeJs, Express Js, MongoDB and Typescript. I am also actively building my portfolio by building personal projects."
+            "Now I'm focusing on college, and deepening web development, studying React, Node Js, Express Js, MongoDB and Typescript. By carrying out personal projects, i'm actively building my portfolio."
         },
         {
           id: "third-p-about",
