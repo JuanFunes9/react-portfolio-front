@@ -26,7 +26,8 @@ const Contact = () => {
     }
 
     try {
-      const response = await axios.post('/send-form', msg);
+      const response = await axios.post('https://portfolio-backend-production-f1ef.up.railway.app/send-email', msg);
+      console.log(response)
       alert("Message sended!");
     } catch (error) {
       alert("Something went wrong, please send me an email to: juan.funes.96@outlook.com");
