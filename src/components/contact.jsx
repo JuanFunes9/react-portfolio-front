@@ -28,12 +28,7 @@ const Contact = () => {
     try {
       const response = await axios.post(
         'https://portfolio-backend-production-f1ef.up.railway.app/send-email',
-        msg,
-        {
-          headers: {
-            'content-type': 'text/html'
-          }
-        }  
+        msg 
       );
       console.log(response)
       alert("Message sended!");
