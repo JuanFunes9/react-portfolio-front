@@ -33,6 +33,7 @@ const Contact = () => {
       console.log(response)
       alert("Message sended!");
     } catch (error) {
+      console.log(error)
       alert("Something went wrong, please send me an email to: juan.funes.96@outlook.com");
     }
   }
