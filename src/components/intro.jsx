@@ -44,7 +44,7 @@ class Intro extends React.Component {
                 <p className="pt-3">
                   <a
                     className="btn btn-primary btn js-scroll px-4"
-                    href="https://portfolio-backend-production-2fb5.up.railway.app//curriculum"
+                    href="https://portfolio-backend-production-2fb5.up.railway.app/curriculum"
                     role="button"
                   >
                     Download CV
