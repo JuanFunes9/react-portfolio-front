@@ -65,7 +65,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
-              <a href='https://ch-final-ecommerce.vercel.app/products' target="_blank" rel="noreferrer">
+              <a href='https://ch-final-ecommerce.vercel.app/' target="_blank" rel="noreferrer">
                 <h4>• Ir al Sitio</h4>
               </a>
               <a href="https://github.com/JuanFunes9/ch-final-backend" target="_blank" rel="noreferrer">
