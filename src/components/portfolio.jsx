@@ -1,13 +1,10 @@
 import React from "react";
 
 //import stock
-import stock from "../img/image1.jpg";
-import stock1 from "../img/image2.jpg";
-import stock2 from "../img/image3.jpg";
-import stock3 from "../img/image4.jpg";
-import stock4 from "../img/image5.jpg";
-import stock5 from "../img/image6.jpg";
-
+import stock from "../img/ecommerce.jpg";
+import stock1 from "../img/ecommerce-profile.jpg";
+import stock2 from "../img/ecommerce-product.jpg";
+import stock3 from "../img/ecommerce-cart.jpg";
 class Portfolio extends React.Component {
   render() {
     return (
@@ -22,7 +19,7 @@ class Portfolio extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-6">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-vmarine">
                   <div className="work-img">
@@ -31,10 +28,10 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Functional E-Commerce</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                            HTML5 - CSS3 - Material UI - MERN
                           </span>
                         </div>
                       </div>
@@ -67,21 +64,13 @@ class Portfolio extends React.Component {
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
               </div>
+              <a href='https://ch-final-ecommerce.vercel.app/products' target="_blank" rel="noreferrer">
+                <h4>• Ir al Sitio</h4>
+              </a>
+              <a href="https://github.com/JuanFunes9/ch-final-backend" target="_blank" rel="noreferrer">
+                <h4>• Ver en GitHub</h4>
+              </a>
             </div>
           </div>
         </div>
