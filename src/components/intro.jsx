@@ -38,7 +38,7 @@ class Intro extends React.Component {
                     href="#work"
                     role="button"
                   >
-                    View My Work
+                    View My Work!
                   </a>
                 </p>
                 <p className="pt-3">
