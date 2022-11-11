@@ -27,7 +27,7 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        'https://portfolio-backend-production-2fb5.up.railway.app//send-email',
+        'https://portfolio-backend-production-2fb5.up.railway.app/send-email',
         msg
       );
       console.log(response)
